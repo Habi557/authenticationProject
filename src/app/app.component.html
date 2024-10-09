@@ -1,0 +1,19 @@
+<nav class="navbar" *ngIf="isMenuRequied">
+  <div class="nav-logo">
+    <a href="#">MyApp</a>
+  </div>
+  <ul class="nav-links">
+    <li><a routerLink="/">Home</a></li>
+    <li *ngIf="isAdimUser"><a routerLink="/user">User</a></li>
+    <li><a routerLink="/customer">Customer</a></li>
+  </ul>
+  <div class="nav-button">
+    <a routerLink="/login" class="btn">Logout</a>
+  </div>
+</nav>
+<div class="container">
+  <div class="width">
+<router-outlet></router-outlet>
+  </div>
+  </div>
+<!-- npx json-server --watch db.json -->
