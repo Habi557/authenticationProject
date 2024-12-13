@@ -33,8 +33,7 @@ export class CustomerComponent {
 
       },
       error: (e) => {
-
-      }
+             console.log("error");      }
     })
   }
   updateCustomer(arg0: any) {

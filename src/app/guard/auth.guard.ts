@@ -25,6 +25,7 @@ export class AuthGuard implements CanActivate {
 
         
       })*/
+     console.log("test1"+ this.service.isLoggedIn());
       if (this.service.isLoggedIn()) {
         if (route.url.length > 0) {
           let menu = route.url[0].path;

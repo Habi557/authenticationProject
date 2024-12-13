@@ -10,64 +10,10 @@
       "isactive": true
     },
     {
-      "id": "atest",
-      "name": "shaik Habibulla",
-      "password": "786786",
-      "email": "habi79972@gmail.com",
-      "gender": "male",
-      "role": "quality",
-      "isactive": true
-    },
-    {
-      "id": "test2",
-      "name": "shaik Habibulla",
-      "password": "786786",
-      "email": "habi79972@gmail.com",
-      "gender": "male",
-      "role": "user",
-      "isactive": false
-    },
-    {
-      "id": "test3",
-      "name": "shaik Habibulla",
-      "password": "786786",
-      "email": "habi79972@gmail.com",
-      "gender": "male",
-      "role": "quality",
-      "isactive": true
-    },
-    {
-      "id": "test4",
-      "name": "shaik Habibulla",
-      "password": "786786",
-      "email": "habi79972@gmail.com",
-      "gender": "male",
-      "role": "staff",
-      "isactive": true
-    },
-    {
-      "id": "test5",
-      "name": "shaik Habibulla",
-      "password": "786786",
-      "email": "habi79972@gmail.com",
-      "gender": "male",
-      "role": "staff",
-      "isactive": true
-    },
-    {
       "id": "Abdulla",
       "name": "abdulla",
       "password": "786786",
       "email": "Abdulla@gmail.com",
-      "gender": "male",
-      "role": "staff",
-      "isactive": true
-    },
-    {
-      "id": "venky",
-      "name": "venky",
-      "password": "venky",
-      "email": "venky@gmail.com",
       "gender": "male",
       "role": "staff",
       "isactive": true

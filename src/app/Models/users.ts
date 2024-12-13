@@ -5,6 +5,7 @@ export interface users {
       email: string | null | undefined,
       gender: string | null | undefined,
       role: string | null | undefined,
+      token: string| null | undefined,
       isactive: boolean
 
 }

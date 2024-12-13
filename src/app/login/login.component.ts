@@ -37,6 +37,7 @@ export class LoginComponent {
         email: '',
         gender: '',
         role: '',
+        token:'',
         isactive: false
 
       }
@@ -65,13 +66,15 @@ export class LoginComponent {
         }*/
           {
             next: (result) => {
-              console.log(result);
-              sessionStorage.setItem("token", result.body);
+              console.log(result.body as users);
+              this.userData=result.body as users;
+              sessionStorage.setItem("token", this.userData .token|| "");
 
-              //  sessionStorage.setItem("userRole", this.userData.role || '{}');
+               sessionStorage.setItem("userRole", this.userData.role || '{}');
               this.route.navigate([''])
 
-            },
+            }
+            ,
             error: (err) => {
               console.log("error");
               this.toaster.warning("Invalid details");
